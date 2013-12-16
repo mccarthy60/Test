@@ -1,0 +1,9 @@
+from time import *
+
+name_ = input("Hello what is your name?")
+
+if name_.type != str:
+	print("Sorry your name is invalid")
+else:
+	print("It's nice to meet you ", name_,"!")
+	
